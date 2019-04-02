@@ -1,0 +1,5 @@
+com/e2e/tests/AppTest.class
+com/e2e/tests/Listeners.class
+com/e2e/tests/Home_PageTest.class
+com/e2e/tests/Validate_title_Test.class
+com/e2e/tests/Validate_navigation_bar_Test.class

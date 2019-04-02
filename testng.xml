@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E2E_Test">
+    <listeners>
+        <listener class-name="com.e2e.tests.Listeners"/>
+    </listeners>
+    <!--Since I have written @Before test and @After Test for each test java file, Im executing tests separately-->
+    <test name="e2e_testing_homepage">
+        <classes>
+            <class name="com.e2e.tests.Home_PageTest"/>
+        </classes>
+    </test>
+    <test name="e2e_testing_navibar">
+        <classes>
+            <class name="com.e2e.tests.Validate_navigation_bar_Test"/>
+        </classes>
+    </test>
+    <test name="e2e_testing_title">
+        <classes>
+            <class name="com.e2e.tests.Validate_title_Test"/>
+        </classes>
+    </test>
+</suite>

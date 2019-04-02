@@ -1,0 +1,4 @@
+com/e2e/pageObjects/LoginPage.class
+com/e2e/pageObjects/LandingPage.class
+com/e2e/resources/Base.class
+com/e2e/tests/App.class

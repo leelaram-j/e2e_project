@@ -1,0 +1,4 @@
+23:16:48.218 [main] INFO  com.e2e.resources.Base - sending password
+23:16:49.647 [main] INFO  com.e2e.resources.Base - Clicking on submit
+23:16:49.819 [main] INFO  com.e2e.resources.Base - Quitting driver
+23:16:55.097 [main] INFO  com.e2e.resources.Base - Driver is initiated

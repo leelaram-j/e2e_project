@@ -1,0 +1,8 @@
+23:16:39.336 [main] INFO  com.e2e.resources.Base - url is opened
+23:16:41.988 [main] INFO  com.e2e.resources.Base - Clicked on Sign-In
+23:16:42.133 [main] INFO  com.e2e.resources.Base - sending user name
+23:16:42.237 [main] INFO  com.e2e.resources.Base - sending password
+23:16:43.980 [main] INFO  com.e2e.resources.Base - Clicking on submit
+23:16:45.175 [main] INFO  com.e2e.resources.Base - url is opened
+23:16:47.986 [main] INFO  com.e2e.resources.Base - Clicked on Sign-In
+23:16:48.125 [main] INFO  com.e2e.resources.Base - sending user name
