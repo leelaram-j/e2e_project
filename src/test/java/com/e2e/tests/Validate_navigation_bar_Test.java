@@ -35,4 +35,10 @@ public class Validate_navigation_bar_Test extends Base
         Assert.assertTrue(lp.getNavigation().isDisplayed());
         System.out.println(lp.getNavigation().isDisplayed());
     }
+    @Test
+    public void failureTest()
+    {
+        driver.get(prop.getProperty("prod"));
+        Assert.assertTrue(false);
+    }
 }

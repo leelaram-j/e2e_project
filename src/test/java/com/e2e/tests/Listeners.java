@@ -1,8 +1,11 @@
 package com.e2e.tests;
 
+import com.e2e.resources.Base;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+
+import java.io.IOException;
 
 public class Listeners implements ITestListener
 {
@@ -19,9 +22,16 @@ public class Listeners implements ITestListener
     }
 
     @Override
-    public void onTestFailure(ITestResult iTestResult)
+    public void onTestFailure(ITestResult result)
     {
-        System.out.println(iTestResult.getName()+" is failed.");
+        try
+        {
+            Base.getScreenshot(result.getName());
+        }
+        catch(IOException e)
+        {
+            e.printStackTrace();
+        }
     }
 
     @Override

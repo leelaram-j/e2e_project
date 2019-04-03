@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [E2E_Test]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.e2e.tests.Listeners"/>
+    <listener class-name="com.e2e.resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="e2e_testing_navibar(failed)" verbose="0">
+    <classes>
+      <class name="com.e2e.tests.Validate_navigation_bar_Test">
+        <methods>
+          <include name="failureTest"/>
+          <include name="startup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.e2e.tests.Validate_navigation_bar_Test -->
+    </classes>
+  </test> <!-- e2e_testing_navibar(failed) -->
+</suite> <!-- Failed suite [E2E_Test] -->

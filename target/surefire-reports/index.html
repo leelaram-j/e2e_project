@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-E2E_Test" class="navigator-link">
-              <span class="suite-name border-passed">E2E_Test</span>
+              <span class="suite-name border-failed">E2E_Test</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-E2E_Test" class="hide-methods failed suite-E2E_Test"> (hide)</a> <!-- hide-methods failed suite-E2E_Test -->
+                      <a href="#" panel-name="suite-E2E_Test" class="show-methods failed suite-E2E_Test"> (show)</a> <!-- show-methods failed suite-E2E_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-E2E_Test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-E2E_Test" title="com.e2e.tests.Validate_navigation_bar_Test" class="method navigator-link" hash-for-method="failureTest">failureTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-E2E_Test -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -137,6 +151,25 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-E2E_Test" class="panel E2E_Test">
+          <div class="suite-E2E_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.e2e.tests.Validate_navigation_bar_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="failureTest">
+                  </a> <!-- failureTest -->
+                  <span class="method-name">failureTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at com.e2e.tests.Validate_navigation_bar_Test.failureTest(Validate_navigation_bar_Test.java:42)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-E2E_Test-class-failed -->
           <div class="suite-E2E_Test-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -171,21 +204,6 @@
           <div class="suite-E2E_Test-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.e2e.tests.Validate_title_Test</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testTitleName">
-                  </a> <!-- testTitleName -->
-                  <span class="method-name">testTitleName</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-E2E_Test-class-passed -->
-          <div class="suite-E2E_Test-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.e2e.tests.Validate_navigation_bar_Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -194,6 +212,21 @@
                   <a name="testNavigationBar">
                   </a> <!-- testNavigationBar -->
                   <span class="method-name">testNavigationBar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-E2E_Test-class-passed -->
+          <div class="suite-E2E_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.e2e.tests.Validate_title_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTitleName">
+                  </a> <!-- testTitleName -->
+                  <span class="method-name">testTitleName</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -210,6 +243,7 @@
 &lt;suite name=&quot;E2E_Test&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.e2e.tests.Listeners&quot;/&gt;
+    &lt;listener class-name=&quot;com.e2e.resources.ExtentReporterNG&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;e2e_testing_homepage&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
@@ -269,32 +303,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'basePageNavigation')
 data.setCell(0, 2, 'com.e2e.tests.Home_PageTest')
-data.setCell(0, 3, 10492);
+data.setCell(0, 3, 9514);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'basePageNavigationDP')
 data.setCell(1, 2, 'com.e2e.tests.Home_PageTest')
-data.setCell(1, 3, 5973);
+data.setCell(1, 3, 5975);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'basePageNavigationDP')
 data.setCell(2, 2, 'com.e2e.tests.Home_PageTest')
-data.setCell(2, 3, 5666);
+data.setCell(2, 3, 5480);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testNavigationBar')
-data.setCell(3, 2, 'com.e2e.tests.Validate_navigation_bar_Test')
-data.setCell(3, 3, 2108);
+data.setCell(3, 1, 'testTitleName')
+data.setCell(3, 2, 'com.e2e.tests.Validate_title_Test')
+data.setCell(3, 3, 1928);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testTitleName')
-data.setCell(4, 2, 'com.e2e.tests.Validate_title_Test')
-data.setCell(4, 3, 2021);
+data.setCell(4, 1, 'failureTest')
+data.setCell(4, 2, 'com.e2e.tests.Validate_navigation_bar_Test')
+data.setCell(4, 3, 1910);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testNavigationBar')
+data.setCell(5, 2, 'com.e2e.tests.Validate_navigation_bar_Test')
+data.setCell(5, 3, 665);
 window.suiteTableData['E2E_Test']= { tableData: data, tableDiv: 'times-div-E2E_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
               <div id="times-div-E2E_Test">
               </div> <!-- times-div-E2E_Test -->
             </div> <!-- times-div -->
@@ -327,49 +365,55 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">basePageNavigation</span>
-                <span class="method-start">3342 ms</span>
+                <span class="method-start">3475 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">basePageNavigationDP(test@test.com, 123456, Normal User)</span>
-                <span class="method-start">13838 ms</span>
+                <span class="method-start">13000 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">basePageNavigationDP(test1@test.com, 1256789, Banned User)</span>
-                <span class="method-start">19812 ms</span>
+                <span class="method-start">18482 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">25480 ms</span>
+                <span class="method-start">24462 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.e2e.tests.Validate_navigation_bar_Test</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">startup</span>
-                <span class="method-start">25679 ms</span>
+                <span class="method-start">24699 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">failureTest</span>
+                <span class="method-start">26087 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">testNavigationBar</span>
-                <span class="method-start">27098 ms</span>
+                <span class="method-start">28523 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">29206 ms</span>
+                <span class="method-start">29188 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.e2e.tests.Validate_title_Test</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">startup</span>
-                <span class="method-start">29376 ms</span>
+                <span class="method-start">29340 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">testTitleName</span>
-                <span class="method-start">30928 ms</span>
+                <span class="method-start">30607 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">32949 ms</span>
+                <span class="method-start">32536 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

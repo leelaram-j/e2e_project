@@ -3,6 +3,7 @@
 <suite name="E2E_Test">
     <listeners>
         <listener class-name="com.e2e.tests.Listeners"/>
+        <listener class-name="com.e2e.resources.ExtentReporterNG"/>
     </listeners>
     <!--Since I have written @Before test and @After Test for each test java file, Im executing tests separately-->
     <test name="e2e_testing_homepage">

@@ -1,4 +1,24 @@
-23:16:48.218 [main] INFO  com.e2e.resources.Base - sending password
-23:16:49.647 [main] INFO  com.e2e.resources.Base - Clicking on submit
-23:16:49.819 [main] INFO  com.e2e.resources.Base - Quitting driver
-23:16:55.097 [main] INFO  com.e2e.resources.Base - Driver is initiated
+23:46:09.311 [main] INFO  com.e2e.resources.Base - Clicked on Sign-In
+23:46:09.456 [main] INFO  com.e2e.resources.Base - sending user name
+23:46:09.544 [main] INFO  com.e2e.resources.Base - sending password
+23:46:11.008 [main] INFO  com.e2e.resources.Base - Clicking on submit
+23:46:11.186 [main] INFO  com.e2e.resources.Base - Quitting driver
+23:46:17.860 [main] INFO  com.e2e.resources.Base - Driver is initiated
+00:16:48.778 [main] INFO  com.e2e.resources.Base - Driver is initiated
+00:16:50.891 [main] INFO  com.e2e.resources.Base - url is opened
+00:16:56.401 [main] INFO  com.e2e.resources.Base - Clicked on Sign-In
+00:16:56.611 [main] INFO  com.e2e.resources.Base - sending user name
+00:16:56.744 [main] INFO  com.e2e.resources.Base - sending password
+00:16:58.333 [main] INFO  com.e2e.resources.Base - Clicking on submit
+00:16:59.650 [main] INFO  com.e2e.resources.Base - url is opened
+00:17:02.152 [main] INFO  com.e2e.resources.Base - Clicked on Sign-In
+00:17:02.298 [main] INFO  com.e2e.resources.Base - sending user name
+00:17:02.407 [main] INFO  com.e2e.resources.Base - sending password
+00:17:03.824 [main] INFO  com.e2e.resources.Base - Clicking on submit
+00:17:05.016 [main] INFO  com.e2e.resources.Base - url is opened
+00:17:07.469 [main] INFO  com.e2e.resources.Base - Clicked on Sign-In
+00:17:07.601 [main] INFO  com.e2e.resources.Base - sending user name
+00:17:07.699 [main] INFO  com.e2e.resources.Base - sending password
+00:17:09.802 [main] INFO  com.e2e.resources.Base - Clicking on submit
+00:17:09.986 [main] INFO  com.e2e.resources.Base - Quitting driver
+00:17:15.950 [main] INFO  com.e2e.resources.Base - Driver is initiated
