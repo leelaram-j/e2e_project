@@ -38,6 +38,7 @@ public class Validate_title_Test extends Base
         String titleName = lp.getTitle().getText();
         Assert.assertEquals(lp.getTitle().getText(),"FEATURED COURSES");
         System.out.println(titleName);
+        //Assert.assertFalse(true,"Checking retry count");
 
     }
 }

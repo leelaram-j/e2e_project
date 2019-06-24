@@ -33,7 +33,7 @@ public class Base
     public WebDriver inititalizeDriver() throws IOException
     {
         prop = new Properties();
-        fis = new FileInputStream("/Users/lee/Documents/E2E_Project/src/main/java/com/e2e/resources/data.properties");
+        fis = new FileInputStream("//Users//lee//Documents//E2E_Project//src//test//java//com//e2e//resources//data.properties");
         prop.load(fis);
         String browserType= prop.getProperty("browser");
         if(browserType.equalsIgnoreCase("chrome"))

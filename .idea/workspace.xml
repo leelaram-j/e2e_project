@@ -2,45 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dec49af-abe0-4568-9042-23d44fe2beb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/e2e/resources/ExtentReporterNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/e2e/resources/RetryAnalyser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/prints-2019-04-02.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/prints-2019-04-02.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/prints.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/prints.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/prints-2019-04-02.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/prints.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/e2e/resources/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e2e/resources/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/e2e/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e2e/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/e2e/resources/ExtentReporterNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/e2e/resources/ExtentReporterNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/e2e/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/e2e/resources/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/e2e/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/e2e/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/e2e/tests/App.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/e2e/tests/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/e2e/tests/Listeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/e2e/tests/Validate_navigation_bar_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/e2e/tests/Validate_navigation_bar_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/e2e/tests/Validate_title_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/e2e/tests/Validate_title_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/E2E_Test/e2e_testing_homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/E2E_Test/e2e_testing_homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/E2E_Test/e2e_testing_homepage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/E2E_Test/e2e_testing_homepage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/E2E_Test/e2e_testing_navibar.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/E2E_Test/e2e_testing_navibar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/E2E_Test/e2e_testing_navibar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/E2E_Test/e2e_testing_navibar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/E2E_Test/e2e_testing_title.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/E2E_Test/e2e_testing_title.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/E2E_Test/e2e_testing_title.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/E2E_Test/e2e_testing_title.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.e2e.tests.Home_PageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.e2e.tests.Home_PageTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.e2e.tests.Validate_navigation_bar_Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.e2e.tests.Validate_navigation_bar_Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.e2e.tests.Validate_title_Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.e2e.tests.Validate_title_Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/E2E_Test/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/E2E_Test/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/E2E_Test/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/E2E_Test/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/E2E_Test/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/E2E_Test/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/E2E_Test/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/E2E_Test/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/E2E_Test/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/E2E_Test/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/e2e/tests/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/e2e/tests/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/e2e/tests/Home_PageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/e2e/tests/Home_PageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ExtentReporterNG.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/e2e/resources/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/e2e/resources/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/e2e/resources/ExtentReporterNG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/e2e/tests/App.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/e2e/tests/Listeners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/e2e/tests/Listeners.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/e2e/tests/Validate_navigation_bar_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/e2e/tests/Validate_navigation_bar_Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/e2e/tests/Validate_title_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/e2e/tests/Validate_title_Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
@@ -57,17 +36,26 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
+            <state relative-caret-position="750">
+              <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ExtentReporterNG.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/e2e/resources/ExtentReporterNG.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/resources/ExtentReporterNG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="150">
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j2.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/resources/log4j2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -75,8 +63,8 @@
       <file leaf-file-name="Home_PageTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/tests/Home_PageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="83" />
+            <state relative-caret-position="-421">
+              <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,8 +75,8 @@
       <file leaf-file-name="Base.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/e2e/resources/Base.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+            <state relative-caret-position="259">
+              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,21 +87,19 @@
       <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+            <state relative-caret-position="120">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="17" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Listeners.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/tests/Listeners.java">
+      <file leaf-file-name="RetryAnalyser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/resources/RetryAnalyser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+            <state relative-caret-position="240">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
-                <element signature="e#890#891#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,8 +108,8 @@
       <file leaf-file-name="Validate_title_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/tests/Validate_title_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
+            <state relative-caret-position="356">
+              <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Validate_navigation_bar_Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Validate_navigation_bar_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/tests/Validate_navigation_bar_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="345">
+              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#654#655#0" expanded="true" />
@@ -182,14 +168,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/e2e/resources/Listeners.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/e2e/resources/log4j.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/e2e/tests/Home_PageTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/e2e/tests/Validate_title_Test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/e2e/tests/Validate_navigation_bar_Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/e2e/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/e2e/tests/Listeners.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/e2e/resources/Base.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/e2e/resources/ExtentReporterNG.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/e2e/tests/Validate_navigation_bar_Test.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/e2e/resources/ExtentReporterNG.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/e2e/resources/RetryAnalyser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/e2e/tests/Listeners.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/e2e/resources/Base.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/e2e/tests/Validate_title_Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/e2e/resources/log4j2.xml" />
       </list>
     </option>
   </component>
@@ -224,12 +212,6 @@
           <item name="E2E_Project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="E2E_Project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.testng:testng:6.14.3" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -249,9 +231,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,6 +270,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="e2e" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E2E_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E2E_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="e2e" type="462c0819:PsiDirectoryNode" />
               <item name="pageObjects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -296,56 +287,47 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="e2e" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="E2E_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="E2E_Project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E2E_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E2E_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E2E_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E2E_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="e2e" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E2E_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E2E_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="e2e" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="ExtentReporterNG" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="E2E_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="E2E_Project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="e2e" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="E2E_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="E2E_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="E2E_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="E2E_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="E2E_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="E2E_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="E2E_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="E2E_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="E2E_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="E2E_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -356,27 +338,30 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/e2e/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.e2e.project" />
-      <recent name="com.e2e.resources" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/e2e/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/e2e/tests/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/com/e2e/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.e2e.resources" />
+      <recent name="com.e2e.project" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.e2e.project" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/e2e/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -600,23 +585,12 @@
       <updated>1553437576943</updated>
       <workItem from="1553437578614" duration="3010000" />
       <workItem from="1553440784567" duration="16874000" />
-      <workItem from="1554227354749" duration="3989000" />
+      <workItem from="1554227354749" duration="5317000" />
+      <workItem from="1561395279073" duration="3246000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Validate_title_Test_(3) - 2019.03.25 at 23h 53m 59s.xml">
-      <configuration name="Validate_title_Test (3)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Validate_title_Test_(4) - 2019.03.27 at 22h 19m 35s.xml">
-      <configuration name="Validate_title_Test (4)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Validate_title_Test_getTitleName - 2019.03.27 at 23h 13m 08s.xml">
-      <configuration name="Validate_title_Test.getTitleName" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Validate_title_Test_(1) - 2019.03.27 at 23h 13m 45s.xml">
-      <configuration name="Validate_title_Test (1)" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Validate_title_Test_testNavigationBar - 2019.03.27 at 23h 18m 48s.xml">
       <configuration name="Validate_title_Test.testNavigationBar" configurationId="TestNG" />
     </history-entry>
@@ -635,28 +609,43 @@
     <history-entry file="_Users_lee_Documents_E2E_Project_testng_xml - 2019.04.02 at 23h 06m 50s.xml">
       <configuration name="/Users/lee/Documents/E2E_Project/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_lee_Documents_E2E_Project_testng_xml - 2019.06.24 at 23h 00m 00s.xml">
+      <configuration name="/Users/lee/Documents/E2E_Project/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_lee_Documents_E2E_Project_testng_xml - 2019.06.24 at 23h 01m 57s.xml">
+      <configuration name="/Users/lee/Documents/E2E_Project/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_lee_Documents_E2E_Project_testng_xml - 2019.06.24 at 23h 09m 11s.xml">
+      <configuration name="/Users/lee/Documents/E2E_Project/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_lee_Documents_E2E_Project_testng_xml - 2019.06.24 at 23h 09m 55s.xml">
+      <configuration name="/Users/lee/Documents/E2E_Project/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23873000" />
+    <option name="totallyTimeSpent" value="28447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32969698" />
+      <window_info anchor="right" id="Codota" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -668,27 +657,25 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32969698" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32969698" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32969698" />
+      <window_info anchor="bottom" id="Message" order="1" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32969698" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -696,8 +683,8 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32969698" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297568" />
       <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
@@ -709,6 +696,79 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/resources/ExtentReporterNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/tests/Home_PageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/e2e/resources/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/tests/Listeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/tests/Validate_title_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/tests/Validate_navigation_bar_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -755,8 +815,6 @@
           <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -783,7 +841,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/e2e/resources/log4j2.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="40" />
@@ -797,7 +855,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/e2e/resources/data.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/resources/data.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
@@ -868,13 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/e2e/resources/data.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/e2e/pageObjects/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -922,37 +973,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/e2e/resources/Listeners.java" />
-    <entry file="file://$PROJECT_DIR$/logs/prints-2019-04-02.log">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/prints.log">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/e2e/resources/log4j2.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/resources/data.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/tests/Listeners.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/tests/Validate_navigation_bar_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+        <state relative-caret-position="345">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/e2e/resources/Base.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/resources/RetryAnalyser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        <state relative-caret-position="240">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -961,29 +1004,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
+        <state relative-caret-position="750">
+          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/e2e/resources/ExtentReporterNG.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/tests/Listeners.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="628">
+          <caret line="82" column="57" selection-start-line="82" selection-start-column="57" selection-end-line="82" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+        <state relative-caret-position="120">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/e2e/resources/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/tests/Home_PageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="83" />
+        <state relative-caret-position="-421">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -992,23 +1048,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/tests/Validate_title_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
+        <state relative-caret-position="356">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/tests/Validate_navigation_bar_Test.java">
+    <entry file="file://$PROJECT_DIR$/logs/prints-2019-04-02.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/prints.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/resources/ExtentReporterNG.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/e2e/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1069,6 +1135,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

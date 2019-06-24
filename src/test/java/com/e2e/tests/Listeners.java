@@ -1,13 +1,15 @@
 package com.e2e.tests;
 
 import com.e2e.resources.Base;
-import org.testng.ITestContext;
-import org.testng.ITestListener;
-import org.testng.ITestResult;
+import com.e2e.resources.RetryAnalyser;
+import org.testng.*;
+import org.testng.annotations.ITestAnnotation;
 
 import java.io.IOException;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
 
-public class Listeners implements ITestListener
+public class Listeners implements ITestListener,ISuiteListener,IInvokedMethodListener,IAnnotationTransformer
 {
 
     @Override
@@ -52,6 +54,33 @@ public class Listeners implements ITestListener
 
     @Override
     public void onFinish(ITestContext iTestContext) {
+
+    }
+
+    @Override
+    public void beforeInvocation(IInvokedMethod method, ITestResult testResult) {
+
+    }
+
+    @Override
+    public void afterInvocation(IInvokedMethod method, ITestResult testResult) {
+
+    }
+
+    @Override
+    public void onStart(ISuite suite) {
+
+    }
+
+    @Override
+    public void onFinish(ISuite suite) {
+
+    }
+
+    @Override
+    public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod)
+    {
+        annotation.setRetryAnalyzer(RetryAnalyser.class);
 
     }
 }
